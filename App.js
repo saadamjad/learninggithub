@@ -10,7 +10,6 @@ import React from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
   Text,
@@ -20,12 +19,7 @@ import {
 
 import {
   Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -38,9 +32,8 @@ const App: () => Node = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.sectionContainer}>
-     
-     <Text> Main branch 1</Text>
-   </View>
+        <Text> Main branch 1</Text>
+      </View>
     </SafeAreaView>
   );
 };
