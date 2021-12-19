@@ -33,7 +33,7 @@ const App: () => Node = () => {
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.sectionContainer}>
      
-     <Text> maine branch  1</Text>
+     <Text> maine branch  1,2,</Text>
    </View>
     </SafeAreaView>
   );
