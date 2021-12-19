@@ -39,7 +39,7 @@ const App: () => Node = () => {
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.sectionContainer}>
      
-     <Text> Main branch 1</Text>
+     <Text> stage 1</Text>
    </View>
     </SafeAreaView>
   );
