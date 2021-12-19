@@ -34,6 +34,8 @@ const App: () => Node = () => {
       <View style={styles.sectionContainer}>
         <Text> develop branch 1</Text>
         <Text> develop branch 2</Text>
+        <Text> develop branch 3</Text>
+        <Text> develop branch 4</Text>
       </View>
     </SafeAreaView>
   );
