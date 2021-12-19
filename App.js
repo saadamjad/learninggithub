@@ -32,7 +32,8 @@ const App: () => Node = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.sectionContainer}>
-        <Text> develop branch P</Text>
+        <Text> develop branch 1</Text>
+        <Text> develop branch 2</Text>
       </View>
     </SafeAreaView>
   );
